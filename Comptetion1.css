@@ -1,0 +1,77 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+ul{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+   margin-right: 45%;
+}
+a{
+    text-decoration: none;
+    width: 50%;
+    color: black;
+}
+.button1{
+   width: 100px; 
+   size: 10vw;
+    margin-right: 50px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #5c39c6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+h1{
+    font-size:50px;
+    line-height: 120%;
+    color: #2e1f5e;
+}
+.top{
+    margin-bottom: 5vw;
+}
+span{
+    color:#5234af ;
+}
+p{
+    font-size:70%;
+    font-weight:lighter;
+    padding-right: 10%;
+}
+.button2{
+    margin-top: 40px;
+    width: 140px; 
+    height: 40px;
+    border-radius: 7px;
+    background: rgb(123,58,180);
+    background: linear-gradient(63deg, rgba(123,58,180,0.7652310924369747) 15%, rgba(198,29,253,1) 66%, rgba(69,119,252,0.7624299719887955) 100%);;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.forto{
+    height: 650px;
+    margin-left: 4vw;
+    
+} 
